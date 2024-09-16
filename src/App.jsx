@@ -4,21 +4,12 @@ import './App.css'
 function App() {
   let [num, setNum] = useState(0)
   function addNum() {
-    setNum(num + 1)
 
 
     setNum(num + 1)
-    setNum(num + 1)
-
-
-    setNum(num += 1)
-    setNum(num += 1)
-
-
-    setNum(prevVal => prevVal + 1);
-    setNum(prevVal => prevVal + 1);
-
   }
+
+  
   function lessNum() {
     if (num === 0) {
       alert(`The value does not go below zero`)
